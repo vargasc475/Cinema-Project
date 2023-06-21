@@ -1,0 +1,38 @@
+// LOCALHOST
+### Get all movies 
+GET http://localhost:3000/movies
+
+### Create new movie
+POST http://localhost:3000/movies/post
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "hbgrsgsgfds",
+    "rating": "R",
+    "time": "2h 50m",
+    "gender": "Action, Crime, Thriller",
+    "releaseDate": "23/03/2023",
+    "language": "English",
+    "subtitles": "Spanish"
+}  
+
+### Get all tickets 
+GET http://localhost:3000/tickets
+
+### Create new ticket
+POST http://localhost:3000/tickets/post
+Content-Type: application/json
+
+{
+        "id": "5",
+        "cinemaName": "Cines Unidos",
+        "movieName": "Jhon Wick: Chapter 4",
+        "date": "5/04/2023",
+        "time": "19:00",
+        "hall": "1",
+        "seat": "C-1"
+    }
+// RENDER
+
+

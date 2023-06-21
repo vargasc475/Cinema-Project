@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "cinemaName": "Cines Unidos",
+        "movieName": "Fast X",
+        "date": "22/05/2023",
+        "time": "18:00",
+        "hall": "2",
+        "seat": "H-3"
+    },
+    {
+        "id": "2",
+        "cinemaName": "Cines Unidos",
+        "movieName": "Jhon Wick: Chapter 4",
+        "date": "30/03/2023",
+        "time": "21:00",
+        "hall": "5",
+        "seat": "A-1"
+    },
+    {
+        "id": "3",
+        "cinemaName": "Cines Unidos",
+        "movieName": "The Super Mario Bros. Movie",
+        "date": "10/04/2023",
+        "time": "21:30",
+        "hall": "1",
+        "seat": "E-6"
+    },
+    {
+        "id": "4",
+        "cinemaName": "Cines Unidos",
+        "movieName": "Spider-Man: Across the Spider-Verse",
+        "date": "05/06/2023",
+        "time": "20:00",
+        "hall": "4",
+        "seat": "B-4"
+    }
+]

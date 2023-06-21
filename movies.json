@@ -1,0 +1,42 @@
+[
+    {
+        "id": "1",
+        "name": "Fast X",
+        "rating": "PG-13",
+        "time": "2h 22m",
+        "gender": "Action, Crime, Thriller",
+        "releaseDate": "18/05/2023",
+        "language": "English",
+        "subtitles": "Spanish"
+    },
+    {
+        "id": "2",
+        "name": "Jhon Wick: Chapter 4",
+        "rating": "R",
+        "time": "2h 50m",
+        "gender": "Action, Crime, Thriller",
+        "releaseDate": "23/03/2023",
+        "language": "English",
+        "subtitles": "Spanish"
+    },
+    {
+        "id": "3",
+        "name": "The Super Mario Bros. Movie",
+        "rating": "PG",
+        "time": "1h 32m",
+        "gender": "Animation, Family, Adventure, Fantasy, Comedy",
+        "releaseDate": "05/04/2023",
+        "language": "English",
+        "subtitles": "Spanish"
+    },
+    {
+        "id": "4",
+        "name": "Spider-Man: Across the Spider=Verse",
+        "rating": "PG",
+        "time": "2h 20m",
+        "gender": "Action, Adventure, Animation, Science Fiction",
+        "releaseDate": "01/06/2023",
+        "language": "English",
+        "subtitles": "Spanish"
+    }
+]
