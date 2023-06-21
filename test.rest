@@ -25,14 +25,47 @@ POST http://localhost:3000/tickets/post
 Content-Type: application/json
 
 {
-        "id": "5",
-        "cinemaName": "Cines Unidos",
-        "movieName": "Jhon Wick: Chapter 4",
-        "date": "5/04/2023",
-        "time": "19:00",
-        "hall": "1",
-        "seat": "C-1"
-    }
+    "id": "5",
+    "cinemaName": "Cines Unidos",
+    "movieName": "Jhon Wick: Chapter 4",
+    "date": "5/04/2023",
+    "time": "19:00",
+    "hall": "1",
+    "seat": "C-1"
+}
 // RENDER
+### Get all movies 
+GET https://cinema-ry9t.onrender.com/movies
 
+### Create new movie
+POST https://cinema-ry9t.onrender.com/movies/post
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "hbgrsgsgfds",
+    "rating": "R",
+    "time": "2h 50m",
+    "gender": "Action, Crime, Thriller",
+    "releaseDate": "23/03/2023",
+    "language": "English",
+    "subtitles": "Spanish"
+}  
+
+### Get all tickets 
+GET https://cinema-ry9t.onrender.com/tickets
+
+### Create new ticket
+POST https://cinema-ry9t.onrender.com/tickets/post
+Content-Type: application/json
+
+{
+    "id": "5",
+    "cinemaName": "Cines Unidos",
+    "movieName": "Jhon Wick: Chapter 4",
+    "date": "5/04/2023",
+    "time": "19:00",
+    "hall": "1",
+    "seat": "C-1"
+}
 
