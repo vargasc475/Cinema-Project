@@ -8,20 +8,52 @@ Content-Type: application/json
 
 {
     "id": "5",
-    "name": "hbgrsgsgfds",
+    "name": "hbgsgsgfds",
     "rating": "R",
     "time": "2h 50m",
     "gender": "Action, Crime, Thriller",
     "releaseDate": "23/03/2023",
     "language": "English",
     "subtitles": "Spanish"
-}  
+} 
+
+### Update Movie
+PUT http://localhost:3000/movies/put/649500d12a5909c03be97294
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "holaaaaa",
+    "rating": "R",
+    "time": "2h 50m",
+    "gender": "Adioosssss",
+    "releaseDate": "23/03/2023",
+    "language": "English",
+    "subtitles": "Spanish"
+}
+
+### Delete Movie
+DELETE http://localhost:3000/movies/delete/649500d12a5909c03be97294
 
 ### Get all tickets 
 GET http://localhost:3000/tickets
 
 ### Create new ticket
 POST http://localhost:3000/tickets/post
+Content-Type: application/json
+
+{
+    "id": "10",
+    "cinemaName": "Cines Unidos",
+    "movieName": "helllllooooooou",
+    "date": "5/04/2023",
+    "time": "19:00",
+    "hall": "123456123",
+    "seat": "C-1"
+}
+
+### Update Ticket
+PUT http://localhost:3000/tickets/put/6494e70e801d30ac16eaff50
 Content-Type: application/json
 
 {
@@ -33,6 +65,10 @@ Content-Type: application/json
     "hall": "1",
     "seat": "C-1"
 }
+
+### Delete Ticket
+DELETE http://localhost:3000/tickets/delete/6493abc3866b8ee9b17b6951
+
 // RENDER
 ### Get all movies 
 GET https://cinema-ry9t.onrender.com/movies
@@ -52,6 +88,25 @@ Content-Type: application/json
     "subtitles": "Spanish"
 }  
 
+### Update Movie
+PUT https://cinema-ry9t.onrender.com/movies/put/6494e5d396125d94a23a8468
+Content-Type: application/json
+
+{
+    "id": "5",
+    "name": "holaaaaa",
+    "rating": "R",
+    "time": "2h 50m",
+    "gender": "Adioosssss",
+    "releaseDate": "23/03/2023",
+    "language": "English",
+    "subtitles": "Spanish"
+}
+
+### Delete Movie
+DELETE https://cinema-ry9t.onrender.com/movies/delete/6494e5d396125d94a23a8468
+
+
 ### Get all tickets 
 GET https://cinema-ry9t.onrender.com/tickets
 
@@ -68,4 +123,21 @@ Content-Type: application/json
     "hall": "1",
     "seat": "C-1"
 }
+
+### Update Ticket
+PUT https://cinema-ry9t.onrender.com/tickets/put/6494e70e801d30ac16eaff50
+Content-Type: application/json
+
+{
+    "id": "5",
+    "cinemaName": "Cines Unidos",
+    "movieName": "Jhon Wick: Chapter 4",
+    "date": "5/04/2023",
+    "time": "19:00",
+    "hall": "1",
+    "seat": "C-1"
+}
+
+### Delete Ticket
+DELETE https://cinema-ry9t.onrender.com/tickets/delete/6493abc3866b8ee9b17b6951
 
